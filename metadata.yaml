@@ -1,0 +1,18 @@
+composer:
+  last: Tůma
+  first: František Ignác Antonín
+title: Per labra nectar bibitur
+subtitle: Motettum de B: V: M:
+genre: motet
+scoring: A (solo), vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.15709
+    date: 1748
+    rism: 600139027
+    url: https://data.onb.ac.at/rec/AC14297604
+    license: public domain
+    principal: true
+imslp:
