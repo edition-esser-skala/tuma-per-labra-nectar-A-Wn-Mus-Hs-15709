@@ -6,7 +6,7 @@
 \paper {
   system-system-spacing.basic-distance = #22
   system-system-spacing.minimum-distance = #22
-  % systems-per-page = #3
+  systems-per-page = #3
 }
 
 \book {
@@ -42,8 +42,8 @@
         >>
         \new FiguredBass { \PerLabraBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 90 }
+      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+      \midi { \tempo 4 = 60 } % 120
     }
   }
 }
